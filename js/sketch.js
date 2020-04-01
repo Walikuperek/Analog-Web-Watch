@@ -1,7 +1,11 @@
 
 function setup() {
-  var canvas = createCanvas(350,700);
-  canvas.parent('sketch-holder');
+// Only for multipleCanvasInYourSketch
+//   var canvas = 
+  createCanvas(350,700);
+  
+// Only for multipleCanvasInYourSketch
+//   canvas.parent('sketch-holder');
   angleMode(DEGREES);
   strokeCap(SQUARE);
 }
